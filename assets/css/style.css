@@ -1,6 +1,7 @@
     h1 {
         background: ;
     }
+<<<<<<< HEAD
 
     
     .header {
@@ -12,6 +13,9 @@
         color: #cccccc;
     }
 
+=======
+    
+>>>>>>> dec069cebaf25f0e4c6a8c6da28f31419112a43a
     #img {
         margin-left: auto;
         margin-right: auto;
@@ -22,16 +26,22 @@
     
     .p {
         color: #777777;
+<<<<<<< HEAD
         font-family: Arial, Arial, Helvetica, sans-serif;
         font-size: 25px;
+=======
+>>>>>>> dec069cebaf25f0e4c6a8c6da28f31419112a43a
     }
     
     .footer{
         flex-shrink: 0;
         padding: 20px;
         background:#666666;
+<<<<<<< HEAD
         font-size: 15px;
         
+=======
+>>>>>>> dec069cebaf25f0e4c6a8c6da28f31419112a43a
     }
 
 
