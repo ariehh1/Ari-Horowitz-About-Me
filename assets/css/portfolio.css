@@ -1,0 +1,18 @@
+h1 {
+    background: #4aaaa5;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+section { 
+    color: #cccccc;
+}
