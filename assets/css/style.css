@@ -3,9 +3,22 @@
         color: #ffffff;
     }
 
-    .container {
+    .top {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navigation {
         display: flex;
         justify-content: flex-end;
+        padding: 10px;
+        color: #777777;
+    }
+
+    body {
+        background-image: url("https://www.toptal.com/designers/subtlepatterns/page/7/assets/images/dark-grey-terrazzo.png");
+        background-repeat: repeat;
+        background-attachment: fixed;
     }
 
     .header {
@@ -13,30 +26,49 @@
         font-size: 30px;
     }
 
-    section { 
-        color: #cccccc;
+    main {
+        width: 960px;
+        color:#4aaaa5;
+        border: #dddddd;
     }
 
-    #img {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        width: 100px;
-        height: 100px;
+    a {
+        margin-left: 15px;
+    }
+
+    .picture1 {
+        display: flex;
+        justify-content: center;
     }
     
-    .p {
+    .p1 {
         color: #777777;
         font-family: Arial, Arial, Helvetica, sans-serif;
-        font-size: 25px;
-    }
-    
-    .footer{
-        flex-shrink: 0;
-        padding: 20px;
-        background:#666666;
         font-size: 15px;
-    
     }
 
+    .p2 {
+        color: #777777;
+        font-family: Arial, Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+    
+    .footer1{
+        display: flex;
+        justify-content: flex-start;
+        flex-shrink: 0;
+        padding: 2px;
+        color: #ffffff;
+        background: #666666;
+        padding: #4aaaa5;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        border-style: solid;
+        border-color: #4aaaa5;
+        border-width: 5px 5px 0px 0px;
+    }
 

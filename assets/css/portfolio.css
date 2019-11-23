@@ -3,9 +3,50 @@ h1 {
     color: #ffffff;
 }
 
-.container {
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
     display: flex;
     justify-content: flex-end;
+    padding: 10px;
+    color: #777777;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+.car {
+    display: flex;
+    justify-content: center;
+}
+
+.tv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.globe{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iphone{
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    width: 50%;
+}
+
+main {
+    width: 960px;
+    color: #4aaaa5;
+    border: #dddddd;
 }
 
 .header {
@@ -15,4 +56,23 @@ h1 {
 
 section { 
     color: #cccccc;
+}
+
+.footer1{
+    display: flex;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    padding: 2px;
+    color: #ffffff;
+    background: #666666;
+    padding: #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: 5px 5px 0px 0px;
 }
