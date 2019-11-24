@@ -1,35 +1,37 @@
     h1 {
         background: #4aaaa5;
         color: #ffffff;
+        font-size: 40px;
     }
 
-    .top {
+    .main-header {
         display: flex;
         justify-content: space-between;
     }
 
-    .navigation {
+    nav {
         display: flex;
-        justify-content: flex-end;
         padding: 10px;
-        color: #777777;
+        color: #ffffff;
     }
 
-    body {
-        background-image: url("https://www.toptal.com/designers/subtlepatterns/page/7/assets/images/dark-grey-terrazzo.png");
+     body {
+        background-image: url("../images/farmer/farmer.png");
         background-repeat: repeat;
         background-attachment: fixed;
     }
 
     .header {
         font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 30px;
+        font-size: 60px;
     }
 
-    main {
+    .content {
         width: 960px;
         color:#4aaaa5;
         border: #dddddd;
+        background-color: #ffffff;
+        justify-content: center;
     }
 
     a {
@@ -71,4 +73,77 @@
         border-color: #4aaaa5;
         border-width: 5px 5px 0px 0px;
     }
+
+    .button {
+        display: flex;
+        justify-content: end;
+        color: #4aaaa5;
+        margin: 50px;
+    }
+
+    input[type=text]{
+        width: 98%;
+        margin: 3px;
+    }
+
+    input[type=text1]{
+        width: 98%;
+        height: 150px;
+        margin: 3px;
+    }
+    
+    input[type=submit]{
+        font-size: 12px;
+        font-weight: normal;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 3px;
+        direction: flex;
+        justify-content: flex-end;
+        width: 15%;
+        display: inline-block;
+        color: #ffffff;
+        background-color: #4aaaa5;
+    }
+
+    h2 {
+        color: #4aaaa5;
+        margin: 10px;
+    }
+    h3, h4, h5 {
+        color: #777777;
+        font-size: 15px;
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .text {
+        width: 50%;
+    }
+
+    section { 
+        color: #cccccc;
+    }
+
+.work {
+    position: relative;
+    width: 250px;
+    height: 100px;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+
+.h3 {
+    position: absolute;
+    justify-content: center;
+}
 
