@@ -27,11 +27,11 @@
     }
 
     .content {
-        width: 960px;
-        color:#4aaaa5;
-        border: #dddddd;
+        max-width: 960px;
+        color: #777777;
         background-color: #ffffff;
         justify-content: center;
+        margin: 25px;
     }
 
     a {
@@ -105,29 +105,23 @@
         background-color: #4aaaa5;
     }
 
-    h2 {
-        color: #4aaaa5;
-        margin: 10px;
-    }
-    h3, h4, h5 {
-        color: #777777;
-        font-size: 15px;
-        padding: 0px;
-        margin: 10px;
-    }
+h2 {
+    color: #4aaaa5;
+    margin: 5px;
+}
 
-    .text {
-        width: 50%;
-    }
+.text {
+    width: 50%;
+}
 
-    section { 
-        color: #cccccc;
-    }
+section { 
+    color: #cccccc;
+}
 
-    .work{
-        display: flex;
-        justify-content: center;
-    }
+.work{
+    display: flex;
+    justify-content: center;
+}
 
 .porfolio-images {
     position: relative;
@@ -155,4 +149,21 @@ img {
     display: flex;
     justify-content: center;
     width: 225px;
+}
+
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 {
+    justify-content: center;
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 10%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    bottom: 10px;
 }
