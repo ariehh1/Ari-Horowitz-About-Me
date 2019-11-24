@@ -124,26 +124,35 @@
         color: #cccccc;
     }
 
-.work {
+    .work{
+        display: flex;
+        justify-content: center;
+    }
+
+.porfolio-images {
     position: relative;
-    width: 250px;
-    height: 100px;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+}
+
+.project-titles{  
+    display: flex;
+    z-index: 0;
+    position: absolute;
+    justify-content: center;
+    background-color: #4aaaa5;
 }
 
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    height: 350px;
 }
 
 img {
     display: flex;
     justify-content: center;
-    width: 250px;
+    width: 225px;
 }
-
-.h3 {
-    position: absolute;
-    justify-content: center;
-}
-
