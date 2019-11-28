@@ -1,13 +1,26 @@
 h1 {
     background: #4aaaa5;
     color: #ffffff;
-    font-size: 40px;
+    font-size: 35px;
+    margin: 0;
+    height: 100%;
+
  }
 
 .main-header {
     display: flex;
     justify-content: space-between;
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid gray;
 }
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 70px);
+   }
 
 nav {
     display: flex;
@@ -19,6 +32,7 @@ body {
     background-image: url("../images/farmer/farmer.png");
     background-repeat: repeat;
     background-attachment: fixed;
+    margin: 0;
 }
 
 .header {
@@ -31,7 +45,7 @@ body {
     color: #777777;
     background-color: #ffffff;
     justify-content: center;
-    margin: 49px;
+    margin: 30px;
     padding: 20px;
     text-align: left;
 }
