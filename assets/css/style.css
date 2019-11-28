@@ -42,6 +42,7 @@ body {
 
 .content {
     max-width: 960px;
+    width: 100%;
     color: #777777;
     background-color: #ffffff;
     justify-content: center;
@@ -133,20 +134,24 @@ h2 {
 }
 
 .work {
+    position: relative;
+    margin: 20px 15px 25px 15px;
     display: flex;
     justify-content: center;
-    align-content: center;
-    position: relative;
+}
+
+.work:nth-child(even) {
+    margin-right: 40px;
 }
 
 .portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 img {
-    width: 225px;
+    width: 300px;
     padding: 40px;
     margin: 20px;
 }
@@ -160,7 +165,6 @@ img {
 }
 
 h3 {
-    justify-content: center;
     position: absolute;
     color: #ffffff;
     background-color: #4aaaa5;
@@ -170,4 +174,6 @@ h3 {
     align-content: center;
     bottom: 48px;
     text-align: center;
+    justify-content: space-evenly;
+    display: flex;
 }
